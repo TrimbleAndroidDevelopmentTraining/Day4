@@ -1,0 +1,13 @@
+Feature		Intent Service		Started Service		Bound Service
+=======		==============		===============		=============
+Started With	startService()		startService()		bindService()
+
+Stops		auto - no requests	manual - stopService()	auto - no components bound
+
+Background	Yes			No - Need to code	No - Need to code
+
+Access to UI	No			Yes			Yes
+
+Multi-thread	No - sequential		Yes if coded		Yes if coded
+
+		
